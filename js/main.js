@@ -41,27 +41,51 @@ const projectsData = [
         file: "proyectos/investigacion-4.pdf"
     },
     {
-        title: "Propuesta de educación ambiental en la Normal de Corozal",
-        author: "Luis García",
-        genre: "Anteproyecto",
+        title: "PPP La Magia de la Lectura",
+        author: "Ángela Corrales Jiménez, Jennifer Rojas Salcedo, Julieth Pahola Payares Colón, Zenith Del Carmen Robles Baldovino",
+        genre: "Proyecto pedagógico productivo",
         year: 2025,
-        abstract: "El objetivo de esta investigación es diseñar un plan de estudios enfocado en la conciencia ambiental para la comunidad educativa.",
-        file: "proyectos/anteproyecto1.pdf"
+        abstract: "La lectura en los niños juega un papel crucial en el desarrollo de habilidades fundamentales para su aprendizaje y crecimiento académico.",
+        file: "proyectos/Proyecto-2.pdf"
+    },
+     {
+        title: "PPP Derivados de los lácteos",
+        author: "Colon Franco María Luisa, Ortega Martínez Sixta María, Tovar Ortega Rosa Inés",
+        genre: "Proyecto pedagógico productivo",
+        year: 2025,
+        abstract: "La educación como eje principal en el desarrollo social, económico, político, cultural y ético, la cual permite el enlace para generar en cada niño conocimientos para sí mismo y su contexto.",
+        file: "proyectos/Proyecto-3.pdf"
     },
     {
-        title: "Análisis de la deserción escolar en zonas rurales de Sucre",
-        author: "Ana Torres",
-        genre: "Monografía",
-        year: 2023,
-        abstract: "Documento que analiza los factores socioeconómicos que contribuyen a la deserción escolar en el departamento de Sucre.",
-        file: "proyectos/monografia1.pdf"
+        title: "Plan de clases: Lateralidad - movimiento en el plano",
+        author: "Joyce Abello Valderrama, Rosa Aura Angulo",
+        genre: "Momento pedagógico",
+        year: 2025,
+        abstract: "Plan de clases del área de matemáticas en la asignatura de geometría para el grado primero.",
+        file: "proyectos/plan-1.pdf"
     },
     {
-        title: "Guía didáctica para el uso de TIC en el aula",
-        author: "Carlos Restrepo",
+        title: "Plan de clases: La Fabula – Producciòn textual",
+        author: "Danitza Viloria, Leidys Calao, Triesten Santamaria, Maria Alfaro.",
+        genre: "Momento pedagógico",
+        year: 2025,
+        abstract: "Plan de clases del área de humanidades en la asignatura de lengua castellana para el grado tercero.",
+        file: "proyectos/plan-2.pdf"
+    },
+    {
+        title: "Plan de clases: La belleza de las sombras – Expresión grafica",
+        author: "Deller Campo Orozco, Alejandra Flores Landis, Karina Padilla Salas, Ma. Camila Pérez Manjarrés, Wendys Vargas Gil",
+        genre: "Momento pedagógico",
+        year: 2025,
+        abstract: "Plan de clases del área de educación artística y cultural en la asignatura de educación artística para el grado Quinto.",
+        file: "proyectos/plan-2.pdf"
+    },
+    {
+        title: "Guía didáctica Mi aula, mi mundo digital",
+        author: "Carlos Martinez Balasnoa",
         genre: "Material Didáctico",
         year: 2024,
-        abstract: "Este material busca orientar a los docentes en la integración efectiva de herramientas tecnológicas en sus clases.",
+        abstract: "Este material busca orientar a los docentes en formación en el desarrollo de habilidades necesarias para utilizar las TIC de manera efectiva en su práctica pedagógica",
         file: "proyectos/guia1.pdf"
     },
     // Puedes agregar más proyectos aquí
@@ -156,4 +180,5 @@ const renderProjects = (projects) => {
 document.addEventListener('DOMContentLoaded', () => {
     populateFilters();
     filterAndRenderProjects();
+
 });
