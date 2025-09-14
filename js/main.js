@@ -62,7 +62,7 @@ const projectsData = [
         genre: "Momento pedagógico",
         year: 2025,
         abstract: "Plan de clases del área de matemáticas en la asignatura de geometría para el grado primero.",
-        file: "proyectos/plan-1.pdf"
+        file: "proyectos/Plan-1.pdf"
     },
     {
         title: "Plan de clases: La Fabula – Producciòn textual",
@@ -70,7 +70,7 @@ const projectsData = [
         genre: "Momento pedagógico",
         year: 2025,
         abstract: "Plan de clases del área de humanidades en la asignatura de lengua castellana para el grado tercero.",
-        file: "proyectos/plan-2.pdf"
+        file: "proyectos/Plan-2.pdf"
     },
     {
         title: "Plan de clases: La belleza de las sombras – Expresión grafica",
@@ -78,7 +78,7 @@ const projectsData = [
         genre: "Momento pedagógico",
         year: 2025,
         abstract: "Plan de clases del área de educación artística y cultural en la asignatura de educación artística para el grado Quinto.",
-        file: "proyectos/plan-2.pdf"
+        file: "proyectos/Plan-3.pdf"
     },
     {
         title: "Guía didáctica Mi aula, mi mundo digital",
@@ -182,3 +182,4 @@ document.addEventListener('DOMContentLoaded', () => {
     filterAndRenderProjects();
 
 });
+
