@@ -78,7 +78,7 @@ const projectsData = [
         genre: "Momento pedagógico",
         year: 2025,
         abstract: "Plan de clases del área de educación artística y cultural en la asignatura de educación artística para el grado Quinto.",
-        file: "proyectos/Plan-3.pdf"
+        file: "repositorio-normal-corozal/proyectos/Plan-3.pdf"
     },
     {
         title: "Guía didáctica Mi aula, mi mundo digital",
@@ -182,4 +182,5 @@ document.addEventListener('DOMContentLoaded', () => {
     filterAndRenderProjects();
 
 });
+
 
